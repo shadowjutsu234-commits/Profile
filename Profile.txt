@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		.container {
+			width: 80%;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		
+		.profile-image {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			margin: 0 auto;
+			display: block;
+		}
+		
+		.name {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		
+		.description {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="https://picsum.photos/200/300" alt="Profile Image" class="profile-image">
+		<h1 class="name">John Doe</h1>
+		<p class="description">Web Developer | Enthusiast | Learner</p>
+		<p class="description">Hello! im a web developer who created this app</p>
+	</div>
+</body>
+</html>
+
+
